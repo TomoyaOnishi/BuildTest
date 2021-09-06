@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD29463926E37656004E28DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29463426E37656004E28DC /* ContentView.swift */; };
 		DD29463A26E37656004E28DC /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29463526E37656004E28DC /* ContentViewModel.swift */; };
-		DD29463B26E37656004E28DC /* HealthcareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29463626E37656004E28DC /* HealthcareApp.swift */; };
 		DD29463C26E37656004E28DC /* SettingEnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29463726E37656004E28DC /* SettingEnvironmentObject.swift */; };
 		DD29463D26E37656004E28DC /* SettingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29463826E37656004E28DC /* SettingManager.swift */; };
 		DD29464026E37680004E28DC /* PreparatoryGymnastics.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD29463E26E3767F004E28DC /* PreparatoryGymnastics.mp4 */; };
@@ -87,6 +85,8 @@
 		DD29476326E386CC004E28DC /* PedometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29475926E386CC004E28DC /* PedometerView.swift */; };
 		DD29476426E386CC004E28DC /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29475A26E386CC004E28DC /* WorkoutManager.swift */; };
 		DD29476626E386E8004E28DC /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29476526E386E8004E28DC /* ElapsedTimeView.swift */; };
+		DD3EC4E726E63EB700037389 /* HealthcareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3EC4E526E63EB700037389 /* HealthcareApp.swift */; };
+		DD3EC4E826E63EB700037389 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3EC4E626E63EB700037389 /* ContentView.swift */; };
 		DD48CADF26E5C63500CF8CDA /* TwilioVideo in Frameworks */ = {isa = PBXBuildFile; productRef = DD48CADE26E5C63500CF8CDA /* TwilioVideo */; };
 		DDC8445026E5AE030067D37B /* WatchConnectivityConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946C926E379D6004E28DC /* WatchConnectivityConstants.swift */; };
 		DDC8445126E5AE060067D37B /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946C826E379D6004E28DC /* WatchConnectivityManager.swift */; };
@@ -144,9 +144,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DD29463426E37656004E28DC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../Healthcare_iOS/Healthcare/ContentView.swift; sourceTree = "<group>"; };
 		DD29463526E37656004E28DC /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
-		DD29463626E37656004E28DC /* HealthcareApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthcareApp.swift; path = ../../Healthcare_iOS/Healthcare/HealthcareApp.swift; sourceTree = "<group>"; };
 		DD29463726E37656004E28DC /* SettingEnvironmentObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingEnvironmentObject.swift; sourceTree = "<group>"; };
 		DD29463826E37656004E28DC /* SettingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingManager.swift; sourceTree = "<group>"; };
 		DD29463E26E3767F004E28DC /* PreparatoryGymnastics.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = PreparatoryGymnastics.mp4; sourceTree = "<group>"; };
@@ -227,6 +225,8 @@
 		DD29475926E386CC004E28DC /* PedometerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedometerView.swift; sourceTree = "<group>"; };
 		DD29475A26E386CC004E28DC /* WorkoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
 		DD29476526E386E8004E28DC /* ElapsedTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		DD3EC4E526E63EB700037389 /* HealthcareApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthcareApp.swift; sourceTree = "<group>"; };
+		DD3EC4E626E63EB700037389 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DDC8444D26E5ADA80067D37B /* TwilioVideo.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TwilioVideo.xcframework; sourceTree = "<group>"; };
 		DDC8445226E5BCFC0067D37B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DDC8445326E5BD0D0067D37B /* Healthcare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Healthcare.entitlements; sourceTree = "<group>"; };
@@ -581,9 +581,9 @@
 				DDC8445226E5BCFC0067D37B /* Info.plist */,
 				DD2946C626E37965004E28DC /* GoogleService-Info.plist */,
 				DDCF04A426E11D5200A3E0CE /* Assets.xcassets */,
-				DD29463426E37656004E28DC /* ContentView.swift */,
+				DD3EC4E626E63EB700037389 /* ContentView.swift */,
+				DD3EC4E526E63EB700037389 /* HealthcareApp.swift */,
 				DD29463526E37656004E28DC /* ContentViewModel.swift */,
-				DD29463626E37656004E28DC /* HealthcareApp.swift */,
 				DD29463726E37656004E28DC /* SettingEnvironmentObject.swift */,
 				DD29463826E37656004E28DC /* SettingManager.swift */,
 				DD2946C526E37911004E28DC /* Extensions */,
@@ -825,20 +825,20 @@
 				DD2946C326E3790B004E28DC /* UIImage+Extentions.swift in Sources */,
 				DD2946B126E378A4004E28DC /* CustomVideoSource.swift in Sources */,
 				DD29464526E376B5004E28DC /* HKHelper.swift in Sources */,
-				DD29463B26E37656004E28DC /* HealthcareApp.swift in Sources */,
 				DD29465226E37711004E28DC /* CountDownTimerView.swift in Sources */,
 				DD29464C26E376FA004E28DC /* CallableApi.swift in Sources */,
 				DD29468C26E3781D004E28DC /* RecordRow.swift in Sources */,
 				DD29467026E37805004E28DC /* CoolingDownSuccessView.swift in Sources */,
 				DD2946B026E378A4004E28DC /* VideoPageViewModel.swift in Sources */,
-				DD29463926E37656004E28DC /* ContentView.swift in Sources */,
 				DD29468826E3781D004E28DC /* BloodPressureRecordModel.swift in Sources */,
 				DD29469C26E3786D004E28DC /* ElectroCardiogramCompleteView.swift in Sources */,
 				DD29466726E377D8004E28DC /* DefaultButtonStyle.swift in Sources */,
 				DD2946BF26E378E7004E28DC /* OnboardingView.swift in Sources */,
 				DD29469326E3784A004E28DC /* WalkingView.swift in Sources */,
 				DD2946B526E378BC004E28DC /* TraningTopView.swift in Sources */,
+				DD3EC4E726E63EB700037389 /* HealthcareApp.swift in Sources */,
 				DD2946CA26E379D6004E28DC /* WatchConnectivityManager.swift in Sources */,
+				DD3EC4E826E63EB700037389 /* ContentView.swift in Sources */,
 				DD29466026E3774F004E28DC /* HealthDataRepositoryImpl.swift in Sources */,
 				DD29466C26E377EC004E28DC /* InputWeightViewModel.swift in Sources */,
 				DD29466B26E377EC004E28DC /* InputWeightView.swift in Sources */,
