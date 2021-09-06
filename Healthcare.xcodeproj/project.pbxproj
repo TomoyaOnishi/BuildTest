@@ -1,0 +1,1297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD29463926E37656004E28DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29463426E37656004E28DC /* ContentView.swift */; };
+		DD29463A26E37656004E28DC /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29463526E37656004E28DC /* ContentViewModel.swift */; };
+		DD29463B26E37656004E28DC /* HealthcareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29463626E37656004E28DC /* HealthcareApp.swift */; };
+		DD29463C26E37656004E28DC /* SettingEnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29463726E37656004E28DC /* SettingEnvironmentObject.swift */; };
+		DD29463D26E37656004E28DC /* SettingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29463826E37656004E28DC /* SettingManager.swift */; };
+		DD29464026E37680004E28DC /* PreparatoryGymnastics.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD29463E26E3767F004E28DC /* PreparatoryGymnastics.mp4 */; };
+		DD29464126E37680004E28DC /* Gymnastics.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD29463F26E37680004E28DC /* Gymnastics.mp4 */; };
+		DD29464526E376B5004E28DC /* HKHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29464326E376B5004E28DC /* HKHelper.swift */; };
+		DD29464626E376B5004E28DC /* HKTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29464426E376B5004E28DC /* HKTypes.swift */; };
+		DD29464926E376E3004E28DC /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29464826E376E3004E28DC /* VideoCapture.swift */; };
+		DD29464C26E376FA004E28DC /* CallableApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29464B26E376FA004E28DC /* CallableApi.swift */; };
+		DD29465126E37711004E28DC /* UnderlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29464E26E37710004E28DC /* UnderlineView.swift */; };
+		DD29465226E37711004E28DC /* CountDownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29464F26E37710004E28DC /* CountDownTimerView.swift */; };
+		DD29465326E37711004E28DC /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29465026E37711004E28DC /* PlayerView.swift */; };
+		DD29465626E37725004E28DC /* CGImage+DrawPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29465526E37725004E28DC /* CGImage+DrawPoint.swift */; };
+		DD29465926E3773A004E28DC /* HeartRateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29465826E3773A004E28DC /* HeartRateManager.swift */; };
+		DD29465F26E3774F004E28DC /* IVideoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29465B26E3774E004E28DC /* IVideoRepository.swift */; };
+		DD29466026E3774F004E28DC /* HealthDataRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29465C26E3774E004E28DC /* HealthDataRepositoryImpl.swift */; };
+		DD29466126E3774F004E28DC /* IHealthDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29465D26E3774E004E28DC /* IHealthDataRepository.swift */; };
+		DD29466226E3774F004E28DC /* VideoRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29465E26E3774F004E28DC /* VideoRepositoryImpl.swift */; };
+		DD29466726E377D8004E28DC /* DefaultButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29466626E377D8004E28DC /* DefaultButtonStyle.swift */; };
+		DD29466B26E377EC004E28DC /* InputWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29466926E377EB004E28DC /* InputWeightView.swift */; };
+		DD29466C26E377EC004E28DC /* InputWeightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29466A26E377EB004E28DC /* InputWeightViewModel.swift */; };
+		DD29467026E37805004E28DC /* CoolingDownSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29466E26E37805004E28DC /* CoolingDownSuccessView.swift */; };
+		DD29467126E37805004E28DC /* CoolingDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29466F26E37805004E28DC /* CoolingDownView.swift */; };
+		DD29468026E3781D004E28DC /* DataListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29467326E3781C004E28DC /* DataListViewModel.swift */; };
+		DD29468126E3781D004E28DC /* BodyMassRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29467426E3781C004E28DC /* BodyMassRecordModel.swift */; };
+		DD29468226E3781D004E28DC /* DailyRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29467526E3781C004E28DC /* DailyRecordModel.swift */; };
+		DD29468326E3781D004E28DC /* DailyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29467626E3781C004E28DC /* DailyRow.swift */; };
+		DD29468426E3781D004E28DC /* DataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29467726E3781C004E28DC /* DataListView.swift */; };
+		DD29468526E3781D004E28DC /* DailyInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29467826E3781C004E28DC /* DailyInputView.swift */; };
+		DD29468626E3781D004E28DC /* BodyMassRecordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29467926E3781C004E28DC /* BodyMassRecordRow.swift */; };
+		DD29468726E3781D004E28DC /* DailyInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29467A26E3781D004E28DC /* DailyInputViewModel.swift */; };
+		DD29468826E3781D004E28DC /* BloodPressureRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29467B26E3781D004E28DC /* BloodPressureRecordModel.swift */; };
+		DD29468926E3781D004E28DC /* WeightInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29467C26E3781D004E28DC /* WeightInputViewModel.swift */; };
+		DD29468A26E3781D004E28DC /* WeightInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29467D26E3781D004E28DC /* WeightInputView.swift */; };
+		DD29468B26E3781D004E28DC /* DailyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29467E26E3781D004E28DC /* DailyModel.swift */; };
+		DD29468C26E3781D004E28DC /* RecordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29467F26E3781D004E28DC /* RecordRow.swift */; };
+		DD29468F26E37836004E28DC /* AppleWatchGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29468E26E37836004E28DC /* AppleWatchGuideView.swift */; };
+		DD29469326E3784A004E28DC /* WalkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29469126E3784A004E28DC /* WalkingView.swift */; };
+		DD29469426E3784A004E28DC /* WalkingSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29469226E3784A004E28DC /* WalkingSuccessView.swift */; };
+		DD29469726E3785A004E28DC /* BodyTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29469626E3785A004E28DC /* BodyTrackingView.swift */; };
+		DD29469C26E3786D004E28DC /* ElectroCardiogramCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29469926E3786D004E28DC /* ElectroCardiogramCompleteView.swift */; };
+		DD29469D26E3786D004E28DC /* ElectroCardiogramSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29469A26E3786D004E28DC /* ElectroCardiogramSuccessView.swift */; };
+		DD29469E26E3786D004E28DC /* ElectroCardiogramGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29469B26E3786D004E28DC /* ElectroCardiogramGuideView.swift */; };
+		DD2946A226E37888004E28DC /* InputBloodPressureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946A026E37888004E28DC /* InputBloodPressureView.swift */; };
+		DD2946A326E37888004E28DC /* InputBloodPressureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946A126E37888004E28DC /* InputBloodPressureViewModel.swift */; };
+		DD2946AC26E378A4004E28DC /* ViewModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946A526E378A4004E28DC /* ViewModelObject.swift */; };
+		DD2946AD26E378A4004E28DC /* TwilioVideoSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946A626E378A4004E28DC /* TwilioVideoSettings.swift */; };
+		DD2946AE26E378A4004E28DC /* VideoPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946A726E378A4004E28DC /* VideoPageView.swift */; };
+		DD2946AF26E378A4004E28DC /* TelenursingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946A826E378A4004E28DC /* TelenursingView.swift */; };
+		DD2946B026E378A4004E28DC /* VideoPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946A926E378A4004E28DC /* VideoPageViewModel.swift */; };
+		DD2946B126E378A4004E28DC /* CustomVideoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946AA26E378A4004E28DC /* CustomVideoSource.swift */; };
+		DD2946B226E378A4004E28DC /* TwilioVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946AB26E378A4004E28DC /* TwilioVideoView.swift */; };
+		DD2946B526E378BC004E28DC /* TraningTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946B426E378BC004E28DC /* TraningTopView.swift */; };
+		DD2946BA26E378D4004E28DC /* WarmingUpGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946B726E378D4004E28DC /* WarmingUpGuideView.swift */; };
+		DD2946BB26E378D4004E28DC /* WarmingUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946B826E378D4004E28DC /* WarmingUpView.swift */; };
+		DD2946BC26E378D4004E28DC /* WarmingUpSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946B926E378D4004E28DC /* WarmingUpSuccessView.swift */; };
+		DD2946BF26E378E7004E28DC /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946BE26E378E7004E28DC /* OnboardingView.swift */; };
+		DD2946C326E3790B004E28DC /* UIImage+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946C126E3790B004E28DC /* UIImage+Extentions.swift */; };
+		DD2946C426E3790B004E28DC /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946C226E3790B004E28DC /* Date+Extension.swift */; };
+		DD2946C726E37965004E28DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD2946C626E37965004E28DC /* GoogleService-Info.plist */; };
+		DD2946CA26E379D6004E28DC /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946C826E379D6004E28DC /* WatchConnectivityManager.swift */; };
+		DD2946CB26E379D6004E28DC /* WatchConnectivityConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946C926E379D6004E28DC /* WatchConnectivityConstants.swift */; };
+		DD29472B26E38696004E28DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD29472A26E38696004E28DC /* Assets.xcassets */; };
+		DD29473126E38696004E28DC /* Healthcare WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DD29473026E38696004E28DC /* Healthcare WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD29474026E38697004E28DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD29473F26E38697004E28DC /* Assets.xcassets */; };
+		DD29474326E38697004E28DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD29474226E38697004E28DC /* Preview Assets.xcassets */; };
+		DD29474826E38697004E28DC /* Healthcare WatchKit.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DD29472826E38695004E28DC /* Healthcare WatchKit.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD29475B26E386CC004E28DC /* Pedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29475126E386CB004E28DC /* Pedometer.swift */; };
+		DD29475C26E386CC004E28DC /* CountDownTimerTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29475226E386CB004E28DC /* CountDownTimerTextView.swift */; };
+		DD29475D26E386CC004E28DC /* HeartRateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29475326E386CB004E28DC /* HeartRateController.swift */; };
+		DD29475E26E386CC004E28DC /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29475426E386CB004E28DC /* NotificationView.swift */; };
+		DD29475F26E386CC004E28DC /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29475526E386CC004E28DC /* ComplicationController.swift */; };
+		DD29476026E386CC004E28DC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29475626E386CC004E28DC /* NotificationController.swift */; };
+		DD29476126E386CC004E28DC /* HealthcareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29475726E386CC004E28DC /* HealthcareApp.swift */; };
+		DD29476226E386CC004E28DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29475826E386CC004E28DC /* ContentView.swift */; };
+		DD29476326E386CC004E28DC /* PedometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29475926E386CC004E28DC /* PedometerView.swift */; };
+		DD29476426E386CC004E28DC /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29475A26E386CC004E28DC /* WorkoutManager.swift */; };
+		DD29476626E386E8004E28DC /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29476526E386E8004E28DC /* ElapsedTimeView.swift */; };
+		DD48CADF26E5C63500CF8CDA /* TwilioVideo in Frameworks */ = {isa = PBXBuildFile; productRef = DD48CADE26E5C63500CF8CDA /* TwilioVideo */; };
+		DDC8445026E5AE030067D37B /* WatchConnectivityConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946C926E379D6004E28DC /* WatchConnectivityConstants.swift */; };
+		DDC8445126E5AE060067D37B /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946C826E379D6004E28DC /* WatchConnectivityManager.swift */; };
+		DDC8445526E5BD0D0067D37B /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC8445426E5BD0D0067D37B /* HealthKit.framework */; };
+		DDCF04A526E11D5200A3E0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCF04A426E11D5200A3E0CE /* Assets.xcassets */; };
+		DDCF04A826E11D5200A3E0CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCF04A726E11D5200A3E0CE /* Preview Assets.xcassets */; };
+		DDCF04B726E1201900A3E0CE /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DDCF04B626E1201900A3E0CE /* FirebaseAnalytics */; };
+		DDCF04B926E1201900A3E0CE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DDCF04B826E1201900A3E0CE /* FirebaseAuth */; };
+		DDCF04BB26E1201900A3E0CE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DDCF04BA26E1201900A3E0CE /* FirebaseFirestore */; };
+		DDCF04BD26E1201900A3E0CE /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = DDCF04BC26E1201900A3E0CE /* FirebaseFunctions */; };
+		DDCF04BF26E1201900A3E0CE /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = DDCF04BE26E1201900A3E0CE /* FirebaseMessaging */; };
+		DDCF04C126E1201900A3E0CE /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DDCF04C026E1201900A3E0CE /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD29473226E38696004E28DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCF049526E11D5200A3E0CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD29472F26E38696004E28DC;
+			remoteInfo = "Healthcare WatchKit Extension";
+		};
+		DD29474626E38697004E28DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCF049526E11D5200A3E0CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD29472726E38695004E28DC;
+			remoteInfo = "Healthcare WatchKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD29474926E38697004E28DC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DD29474826E38697004E28DC /* Healthcare WatchKit.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD29474C26E38697004E28DC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DD29473126E38696004E28DC /* Healthcare WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DD29463426E37656004E28DC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../Healthcare_iOS/Healthcare/ContentView.swift; sourceTree = "<group>"; };
+		DD29463526E37656004E28DC /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		DD29463626E37656004E28DC /* HealthcareApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthcareApp.swift; path = ../../Healthcare_iOS/Healthcare/HealthcareApp.swift; sourceTree = "<group>"; };
+		DD29463726E37656004E28DC /* SettingEnvironmentObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingEnvironmentObject.swift; sourceTree = "<group>"; };
+		DD29463826E37656004E28DC /* SettingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingManager.swift; sourceTree = "<group>"; };
+		DD29463E26E3767F004E28DC /* PreparatoryGymnastics.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = PreparatoryGymnastics.mp4; sourceTree = "<group>"; };
+		DD29463F26E37680004E28DC /* Gymnastics.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gymnastics.mp4; sourceTree = "<group>"; };
+		DD29464326E376B5004E28DC /* HKHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKHelper.swift; sourceTree = "<group>"; };
+		DD29464426E376B5004E28DC /* HKTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKTypes.swift; sourceTree = "<group>"; };
+		DD29464826E376E3004E28DC /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		DD29464B26E376FA004E28DC /* CallableApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallableApi.swift; sourceTree = "<group>"; };
+		DD29464E26E37710004E28DC /* UnderlineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderlineView.swift; sourceTree = "<group>"; };
+		DD29464F26E37710004E28DC /* CountDownTimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountDownTimerView.swift; sourceTree = "<group>"; };
+		DD29465026E37711004E28DC /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		DD29465526E37725004E28DC /* CGImage+DrawPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+DrawPoint.swift"; sourceTree = "<group>"; };
+		DD29465826E3773A004E28DC /* HeartRateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRateManager.swift; sourceTree = "<group>"; };
+		DD29465B26E3774E004E28DC /* IVideoRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IVideoRepository.swift; sourceTree = "<group>"; };
+		DD29465C26E3774E004E28DC /* HealthDataRepositoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthDataRepositoryImpl.swift; sourceTree = "<group>"; };
+		DD29465D26E3774E004E28DC /* IHealthDataRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IHealthDataRepository.swift; sourceTree = "<group>"; };
+		DD29465E26E3774F004E28DC /* VideoRepositoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoRepositoryImpl.swift; sourceTree = "<group>"; };
+		DD29466626E377D8004E28DC /* DefaultButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultButtonStyle.swift; sourceTree = "<group>"; };
+		DD29466926E377EB004E28DC /* InputWeightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputWeightView.swift; sourceTree = "<group>"; };
+		DD29466A26E377EB004E28DC /* InputWeightViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputWeightViewModel.swift; sourceTree = "<group>"; };
+		DD29466E26E37805004E28DC /* CoolingDownSuccessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolingDownSuccessView.swift; sourceTree = "<group>"; };
+		DD29466F26E37805004E28DC /* CoolingDownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolingDownView.swift; sourceTree = "<group>"; };
+		DD29467326E3781C004E28DC /* DataListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataListViewModel.swift; sourceTree = "<group>"; };
+		DD29467426E3781C004E28DC /* BodyMassRecordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyMassRecordModel.swift; sourceTree = "<group>"; };
+		DD29467526E3781C004E28DC /* DailyRecordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyRecordModel.swift; sourceTree = "<group>"; };
+		DD29467626E3781C004E28DC /* DailyRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyRow.swift; sourceTree = "<group>"; };
+		DD29467726E3781C004E28DC /* DataListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataListView.swift; sourceTree = "<group>"; };
+		DD29467826E3781C004E28DC /* DailyInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyInputView.swift; sourceTree = "<group>"; };
+		DD29467926E3781C004E28DC /* BodyMassRecordRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyMassRecordRow.swift; sourceTree = "<group>"; };
+		DD29467A26E3781D004E28DC /* DailyInputViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyInputViewModel.swift; sourceTree = "<group>"; };
+		DD29467B26E3781D004E28DC /* BloodPressureRecordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloodPressureRecordModel.swift; sourceTree = "<group>"; };
+		DD29467C26E3781D004E28DC /* WeightInputViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightInputViewModel.swift; sourceTree = "<group>"; };
+		DD29467D26E3781D004E28DC /* WeightInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightInputView.swift; sourceTree = "<group>"; };
+		DD29467E26E3781D004E28DC /* DailyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyModel.swift; sourceTree = "<group>"; };
+		DD29467F26E3781D004E28DC /* RecordRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordRow.swift; sourceTree = "<group>"; };
+		DD29468E26E37836004E28DC /* AppleWatchGuideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleWatchGuideView.swift; sourceTree = "<group>"; };
+		DD29469126E3784A004E28DC /* WalkingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkingView.swift; sourceTree = "<group>"; };
+		DD29469226E3784A004E28DC /* WalkingSuccessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkingSuccessView.swift; sourceTree = "<group>"; };
+		DD29469626E3785A004E28DC /* BodyTrackingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyTrackingView.swift; sourceTree = "<group>"; };
+		DD29469926E3786D004E28DC /* ElectroCardiogramCompleteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectroCardiogramCompleteView.swift; sourceTree = "<group>"; };
+		DD29469A26E3786D004E28DC /* ElectroCardiogramSuccessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectroCardiogramSuccessView.swift; sourceTree = "<group>"; };
+		DD29469B26E3786D004E28DC /* ElectroCardiogramGuideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectroCardiogramGuideView.swift; sourceTree = "<group>"; };
+		DD2946A026E37888004E28DC /* InputBloodPressureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputBloodPressureView.swift; sourceTree = "<group>"; };
+		DD2946A126E37888004E28DC /* InputBloodPressureViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputBloodPressureViewModel.swift; sourceTree = "<group>"; };
+		DD2946A526E378A4004E28DC /* ViewModelObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelObject.swift; sourceTree = "<group>"; };
+		DD2946A626E378A4004E28DC /* TwilioVideoSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwilioVideoSettings.swift; sourceTree = "<group>"; };
+		DD2946A726E378A4004E28DC /* VideoPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPageView.swift; sourceTree = "<group>"; };
+		DD2946A826E378A4004E28DC /* TelenursingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelenursingView.swift; sourceTree = "<group>"; };
+		DD2946A926E378A4004E28DC /* VideoPageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPageViewModel.swift; sourceTree = "<group>"; };
+		DD2946AA26E378A4004E28DC /* CustomVideoSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomVideoSource.swift; sourceTree = "<group>"; };
+		DD2946AB26E378A4004E28DC /* TwilioVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwilioVideoView.swift; sourceTree = "<group>"; };
+		DD2946B426E378BC004E28DC /* TraningTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraningTopView.swift; sourceTree = "<group>"; };
+		DD2946B726E378D4004E28DC /* WarmingUpGuideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarmingUpGuideView.swift; sourceTree = "<group>"; };
+		DD2946B826E378D4004E28DC /* WarmingUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarmingUpView.swift; sourceTree = "<group>"; };
+		DD2946B926E378D4004E28DC /* WarmingUpSuccessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarmingUpSuccessView.swift; sourceTree = "<group>"; };
+		DD2946BE26E378E7004E28DC /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		DD2946C126E3790B004E28DC /* UIImage+Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extentions.swift"; sourceTree = "<group>"; };
+		DD2946C226E3790B004E28DC /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		DD2946C626E37965004E28DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD2946C826E379D6004E28DC /* WatchConnectivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchConnectivityManager.swift; sourceTree = "<group>"; };
+		DD2946C926E379D6004E28DC /* WatchConnectivityConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchConnectivityConstants.swift; sourceTree = "<group>"; };
+		DD2946CD26E37CB2004E28DC /* TwilioVideo.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TwilioVideo.xcframework; path = ../../Downloads/TwilioVideo/TwilioVideo.xcframework; sourceTree = "<group>"; };
+		DD29472826E38695004E28DC /* Healthcare WatchKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Healthcare WatchKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD29472A26E38696004E28DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD29473026E38696004E28DC /* Healthcare WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Healthcare WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD29473F26E38697004E28DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD29474226E38697004E28DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD29474426E38697004E28DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD29474526E38697004E28DC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		DD29475126E386CB004E28DC /* Pedometer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pedometer.swift; sourceTree = "<group>"; };
+		DD29475226E386CB004E28DC /* CountDownTimerTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountDownTimerTextView.swift; sourceTree = "<group>"; };
+		DD29475326E386CB004E28DC /* HeartRateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRateController.swift; sourceTree = "<group>"; };
+		DD29475426E386CB004E28DC /* NotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		DD29475526E386CC004E28DC /* ComplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		DD29475626E386CC004E28DC /* NotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		DD29475726E386CC004E28DC /* HealthcareApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthcareApp.swift; sourceTree = "<group>"; };
+		DD29475826E386CC004E28DC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD29475926E386CC004E28DC /* PedometerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedometerView.swift; sourceTree = "<group>"; };
+		DD29475A26E386CC004E28DC /* WorkoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		DD29476526E386E8004E28DC /* ElapsedTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		DDC8444D26E5ADA80067D37B /* TwilioVideo.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TwilioVideo.xcframework; sourceTree = "<group>"; };
+		DDC8445226E5BCFC0067D37B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DDC8445326E5BD0D0067D37B /* Healthcare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Healthcare.entitlements; sourceTree = "<group>"; };
+		DDC8445426E5BD0D0067D37B /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		DDCF049D26E11D5200A3E0CE /* Healthcare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Healthcare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCF04A426E11D5200A3E0CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDCF04A726E11D5200A3E0CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD29472D26E38696004E28DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCF049A26E11D5200A3E0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCF04BF26E1201900A3E0CE /* FirebaseMessaging in Frameworks */,
+				DDCF04B726E1201900A3E0CE /* FirebaseAnalytics in Frameworks */,
+				DD48CADF26E5C63500CF8CDA /* TwilioVideo in Frameworks */,
+				DDCF04BB26E1201900A3E0CE /* FirebaseFirestore in Frameworks */,
+				DDCF04BD26E1201900A3E0CE /* FirebaseFunctions in Frameworks */,
+				DDC8445526E5BD0D0067D37B /* HealthKit.framework in Frameworks */,
+				DDCF04C126E1201900A3E0CE /* FirebaseStorage in Frameworks */,
+				DDCF04B926E1201900A3E0CE /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD29464226E37686004E28DC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DD29463F26E37680004E28DC /* Gymnastics.mp4 */,
+				DD29463E26E3767F004E28DC /* PreparatoryGymnastics.mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DD29464726E376BC004E28DC /* HealthKit */ = {
+			isa = PBXGroup;
+			children = (
+				DD29464326E376B5004E28DC /* HKHelper.swift */,
+				DD29464426E376B5004E28DC /* HKTypes.swift */,
+			);
+			path = HealthKit;
+			sourceTree = "<group>";
+		};
+		DD29464A26E376E9004E28DC /* VideoCapture */ = {
+			isa = PBXGroup;
+			children = (
+				DD29464826E376E3004E28DC /* VideoCapture.swift */,
+			);
+			path = VideoCapture;
+			sourceTree = "<group>";
+		};
+		DD29464D26E37701004E28DC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DD29464B26E376FA004E28DC /* CallableApi.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DD29465426E37716004E28DC /* ViewUtil */ = {
+			isa = PBXGroup;
+			children = (
+				DD29464F26E37710004E28DC /* CountDownTimerView.swift */,
+				DD29465026E37711004E28DC /* PlayerView.swift */,
+				DD29464E26E37710004E28DC /* UnderlineView.swift */,
+			);
+			path = ViewUtil;
+			sourceTree = "<group>";
+		};
+		DD29465726E3772A004E28DC /* ViewExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DD29465526E37725004E28DC /* CGImage+DrawPoint.swift */,
+			);
+			path = ViewExtension;
+			sourceTree = "<group>";
+		};
+		DD29465A26E3773E004E28DC /* HeartRate */ = {
+			isa = PBXGroup;
+			children = (
+				DD29465826E3773A004E28DC /* HeartRateManager.swift */,
+			);
+			path = HeartRate;
+			sourceTree = "<group>";
+		};
+		DD29466326E37755004E28DC /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				DD29465C26E3774E004E28DC /* HealthDataRepositoryImpl.swift */,
+				DD29465D26E3774E004E28DC /* IHealthDataRepository.swift */,
+				DD29465B26E3774E004E28DC /* IVideoRepository.swift */,
+				DD29465E26E3774F004E28DC /* VideoRepositoryImpl.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		DD29466426E37788004E28DC /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				DD29464726E376BC004E28DC /* HealthKit */,
+				DD29464A26E376E9004E28DC /* VideoCapture */,
+				DD29464D26E37701004E28DC /* API */,
+				DD29465426E37716004E28DC /* ViewUtil */,
+				DD29465726E3772A004E28DC /* ViewExtension */,
+				DD29465A26E3773E004E28DC /* HeartRate */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		DD29466526E377B2004E28DC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DD2946C026E378EA004E28DC /* Onboarding */,
+				DD2946BD26E378D9004E28DC /* WarmingUp */,
+				DD2946B626E378C2004E28DC /* TrainingTop */,
+				DD2946B326E378AA004E28DC /* Telenursing */,
+				DD2946A426E3788C004E28DC /* BloodPresure */,
+				DD29469F26E37872004E28DC /* ElectroCardogram */,
+				DD29469826E3785E004E28DC /* BodyTracking */,
+				DD29469526E3784E004E28DC /* Walking */,
+				DD29469026E3783C004E28DC /* AppleWatch */,
+				DD29468D26E37821004E28DC /* DataList */,
+				DD29467226E37809004E28DC /* CoolingDown */,
+				DD29466D26E377F7004E28DC /* Weight */,
+				DD29466826E377DC004E28DC /* Style */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DD29466826E377DC004E28DC /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				DD29466626E377D8004E28DC /* DefaultButtonStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		DD29466D26E377F7004E28DC /* Weight */ = {
+			isa = PBXGroup;
+			children = (
+				DD29466926E377EB004E28DC /* InputWeightView.swift */,
+				DD29466A26E377EB004E28DC /* InputWeightViewModel.swift */,
+			);
+			path = Weight;
+			sourceTree = "<group>";
+		};
+		DD29467226E37809004E28DC /* CoolingDown */ = {
+			isa = PBXGroup;
+			children = (
+				DD29466E26E37805004E28DC /* CoolingDownSuccessView.swift */,
+				DD29466F26E37805004E28DC /* CoolingDownView.swift */,
+			);
+			path = CoolingDown;
+			sourceTree = "<group>";
+		};
+		DD29468D26E37821004E28DC /* DataList */ = {
+			isa = PBXGroup;
+			children = (
+				DD29467B26E3781D004E28DC /* BloodPressureRecordModel.swift */,
+				DD29467426E3781C004E28DC /* BodyMassRecordModel.swift */,
+				DD29467926E3781C004E28DC /* BodyMassRecordRow.swift */,
+				DD29467826E3781C004E28DC /* DailyInputView.swift */,
+				DD29467A26E3781D004E28DC /* DailyInputViewModel.swift */,
+				DD29467E26E3781D004E28DC /* DailyModel.swift */,
+				DD29467526E3781C004E28DC /* DailyRecordModel.swift */,
+				DD29467626E3781C004E28DC /* DailyRow.swift */,
+				DD29467726E3781C004E28DC /* DataListView.swift */,
+				DD29467326E3781C004E28DC /* DataListViewModel.swift */,
+				DD29467F26E3781D004E28DC /* RecordRow.swift */,
+				DD29467D26E3781D004E28DC /* WeightInputView.swift */,
+				DD29467C26E3781D004E28DC /* WeightInputViewModel.swift */,
+			);
+			path = DataList;
+			sourceTree = "<group>";
+		};
+		DD29469026E3783C004E28DC /* AppleWatch */ = {
+			isa = PBXGroup;
+			children = (
+				DD29468E26E37836004E28DC /* AppleWatchGuideView.swift */,
+			);
+			path = AppleWatch;
+			sourceTree = "<group>";
+		};
+		DD29469526E3784E004E28DC /* Walking */ = {
+			isa = PBXGroup;
+			children = (
+				DD29469226E3784A004E28DC /* WalkingSuccessView.swift */,
+				DD29469126E3784A004E28DC /* WalkingView.swift */,
+			);
+			path = Walking;
+			sourceTree = "<group>";
+		};
+		DD29469826E3785E004E28DC /* BodyTracking */ = {
+			isa = PBXGroup;
+			children = (
+				DD29469626E3785A004E28DC /* BodyTrackingView.swift */,
+			);
+			path = BodyTracking;
+			sourceTree = "<group>";
+		};
+		DD29469F26E37872004E28DC /* ElectroCardogram */ = {
+			isa = PBXGroup;
+			children = (
+				DD29469926E3786D004E28DC /* ElectroCardiogramCompleteView.swift */,
+				DD29469B26E3786D004E28DC /* ElectroCardiogramGuideView.swift */,
+				DD29469A26E3786D004E28DC /* ElectroCardiogramSuccessView.swift */,
+			);
+			path = ElectroCardogram;
+			sourceTree = "<group>";
+		};
+		DD2946A426E3788C004E28DC /* BloodPresure */ = {
+			isa = PBXGroup;
+			children = (
+				DD2946A026E37888004E28DC /* InputBloodPressureView.swift */,
+				DD2946A126E37888004E28DC /* InputBloodPressureViewModel.swift */,
+			);
+			path = BloodPresure;
+			sourceTree = "<group>";
+		};
+		DD2946B326E378AA004E28DC /* Telenursing */ = {
+			isa = PBXGroup;
+			children = (
+				DD2946AA26E378A4004E28DC /* CustomVideoSource.swift */,
+				DD2946A826E378A4004E28DC /* TelenursingView.swift */,
+				DD2946A626E378A4004E28DC /* TwilioVideoSettings.swift */,
+				DD2946AB26E378A4004E28DC /* TwilioVideoView.swift */,
+				DD2946A726E378A4004E28DC /* VideoPageView.swift */,
+				DD2946A926E378A4004E28DC /* VideoPageViewModel.swift */,
+				DD2946A526E378A4004E28DC /* ViewModelObject.swift */,
+			);
+			path = Telenursing;
+			sourceTree = "<group>";
+		};
+		DD2946B626E378C2004E28DC /* TrainingTop */ = {
+			isa = PBXGroup;
+			children = (
+				DD2946B426E378BC004E28DC /* TraningTopView.swift */,
+			);
+			path = TrainingTop;
+			sourceTree = "<group>";
+		};
+		DD2946BD26E378D9004E28DC /* WarmingUp */ = {
+			isa = PBXGroup;
+			children = (
+				DD2946B726E378D4004E28DC /* WarmingUpGuideView.swift */,
+				DD2946B926E378D4004E28DC /* WarmingUpSuccessView.swift */,
+				DD2946B826E378D4004E28DC /* WarmingUpView.swift */,
+			);
+			path = WarmingUp;
+			sourceTree = "<group>";
+		};
+		DD2946C026E378EA004E28DC /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				DD2946BE26E378E7004E28DC /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		DD2946C526E37911004E28DC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD2946C226E3790B004E28DC /* Date+Extension.swift */,
+				DD2946C126E3790B004E28DC /* UIImage+Extentions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DD2946CC26E379EC004E28DC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DD2946C926E379D6004E28DC /* WatchConnectivityConstants.swift */,
+				DD2946C826E379D6004E28DC /* WatchConnectivityManager.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DD29472926E38695004E28DC /* Healthcare WatchKit */ = {
+			isa = PBXGroup;
+			children = (
+				DD29472A26E38696004E28DC /* Assets.xcassets */,
+			);
+			path = "Healthcare WatchKit";
+			sourceTree = "<group>";
+		};
+		DD29473426E38696004E28DC /* Healthcare WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DD29475526E386CC004E28DC /* ComplicationController.swift */,
+				DD29475826E386CC004E28DC /* ContentView.swift */,
+				DD29475226E386CB004E28DC /* CountDownTimerTextView.swift */,
+				DD29475726E386CC004E28DC /* HealthcareApp.swift */,
+				DD29475326E386CB004E28DC /* HeartRateController.swift */,
+				DD29475626E386CC004E28DC /* NotificationController.swift */,
+				DD29475426E386CB004E28DC /* NotificationView.swift */,
+				DD29475126E386CB004E28DC /* Pedometer.swift */,
+				DD29475926E386CC004E28DC /* PedometerView.swift */,
+				DD29475A26E386CC004E28DC /* WorkoutManager.swift */,
+				DD29476526E386E8004E28DC /* ElapsedTimeView.swift */,
+				DD29473F26E38697004E28DC /* Assets.xcassets */,
+				DD29474426E38697004E28DC /* Info.plist */,
+				DD29474526E38697004E28DC /* PushNotificationPayload.apns */,
+				DD29474126E38697004E28DC /* Preview Content */,
+			);
+			path = "Healthcare WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DD29474126E38697004E28DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD29474226E38697004E28DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDCF049426E11D5200A3E0CE = {
+			isa = PBXGroup;
+			children = (
+				DD2946CC26E379EC004E28DC /* Shared */,
+				DDCF049F26E11D5200A3E0CE /* Healthcare */,
+				DD29472926E38695004E28DC /* Healthcare WatchKit */,
+				DD29473426E38696004E28DC /* Healthcare WatchKit Extension */,
+				DDCF049E26E11D5200A3E0CE /* Products */,
+				DDCF04B126E11DEA00A3E0CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDCF049E26E11D5200A3E0CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDCF049D26E11D5200A3E0CE /* Healthcare.app */,
+				DD29472826E38695004E28DC /* Healthcare WatchKit.app */,
+				DD29473026E38696004E28DC /* Healthcare WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDCF049F26E11D5200A3E0CE /* Healthcare */ = {
+			isa = PBXGroup;
+			children = (
+				DDC8445326E5BD0D0067D37B /* Healthcare.entitlements */,
+				DDC8445226E5BCFC0067D37B /* Info.plist */,
+				DD2946C626E37965004E28DC /* GoogleService-Info.plist */,
+				DDCF04A426E11D5200A3E0CE /* Assets.xcassets */,
+				DD29463426E37656004E28DC /* ContentView.swift */,
+				DD29463526E37656004E28DC /* ContentViewModel.swift */,
+				DD29463626E37656004E28DC /* HealthcareApp.swift */,
+				DD29463726E37656004E28DC /* SettingEnvironmentObject.swift */,
+				DD29463826E37656004E28DC /* SettingManager.swift */,
+				DD2946C526E37911004E28DC /* Extensions */,
+				DD29466526E377B2004E28DC /* UI */,
+				DD29466426E37788004E28DC /* Infrastructure */,
+				DD29466326E37755004E28DC /* Repository */,
+				DD29464226E37686004E28DC /* Resource */,
+				DDCF04A626E11D5200A3E0CE /* Preview Content */,
+			);
+			path = Healthcare;
+			sourceTree = "<group>";
+		};
+		DDCF04A626E11D5200A3E0CE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDCF04A726E11D5200A3E0CE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDCF04B126E11DEA00A3E0CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDC8445426E5BD0D0067D37B /* HealthKit.framework */,
+				DDC8444D26E5ADA80067D37B /* TwilioVideo.xcframework */,
+				DD2946CD26E37CB2004E28DC /* TwilioVideo.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD29472726E38695004E28DC /* Healthcare WatchKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD29475026E38697004E28DC /* Build configuration list for PBXNativeTarget "Healthcare WatchKit" */;
+			buildPhases = (
+				DD29472626E38695004E28DC /* Resources */,
+				DD29474C26E38697004E28DC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD29473326E38696004E28DC /* PBXTargetDependency */,
+			);
+			name = "Healthcare WatchKit";
+			productName = "Healthcare WatchKit";
+			productReference = DD29472826E38695004E28DC /* Healthcare WatchKit.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DD29472F26E38696004E28DC /* Healthcare WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD29474F26E38697004E28DC /* Build configuration list for PBXNativeTarget "Healthcare WatchKit Extension" */;
+			buildPhases = (
+				DD29472C26E38696004E28DC /* Sources */,
+				DD29472D26E38696004E28DC /* Frameworks */,
+				DD29472E26E38696004E28DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Healthcare WatchKit Extension";
+			productName = "Healthcare WatchKit Extension";
+			productReference = DD29473026E38696004E28DC /* Healthcare WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		DDCF049C26E11D5200A3E0CE /* Healthcare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCF04AB26E11D5200A3E0CE /* Build configuration list for PBXNativeTarget "Healthcare" */;
+			buildPhases = (
+				DDCF049926E11D5200A3E0CE /* Sources */,
+				DDCF049A26E11D5200A3E0CE /* Frameworks */,
+				DDCF049B26E11D5200A3E0CE /* Resources */,
+				DD29474926E38697004E28DC /* Embed Watch Content */,
+				DD48CAE026E5C63D00CF8CDA /* Twilio SPM Workaround */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD29474726E38697004E28DC /* PBXTargetDependency */,
+			);
+			name = Healthcare;
+			packageProductDependencies = (
+				DDCF04B626E1201900A3E0CE /* FirebaseAnalytics */,
+				DDCF04B826E1201900A3E0CE /* FirebaseAuth */,
+				DDCF04BA26E1201900A3E0CE /* FirebaseFirestore */,
+				DDCF04BC26E1201900A3E0CE /* FirebaseFunctions */,
+				DDCF04BE26E1201900A3E0CE /* FirebaseMessaging */,
+				DDCF04C026E1201900A3E0CE /* FirebaseStorage */,
+				DD48CADE26E5C63500CF8CDA /* TwilioVideo */,
+			);
+			productName = Healthcare;
+			productReference = DDCF049D26E11D5200A3E0CE /* Healthcare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDCF049526E11D5200A3E0CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DD29472726E38695004E28DC = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DD29472F26E38696004E28DC = {
+						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
+					};
+					DDCF049C26E11D5200A3E0CE = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = DDCF049826E11D5200A3E0CE /* Build configuration list for PBXProject "Healthcare" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDCF049426E11D5200A3E0CE;
+			packageReferences = (
+				DDCF04B526E1201900A3E0CE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				DD48CADD26E5C63500CF8CDA /* XCRemoteSwiftPackageReference "twilio-video-ios" */,
+			);
+			productRefGroup = DDCF049E26E11D5200A3E0CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDCF049C26E11D5200A3E0CE /* Healthcare */,
+				DD29472726E38695004E28DC /* Healthcare WatchKit */,
+				DD29472F26E38696004E28DC /* Healthcare WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD29472626E38695004E28DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD29472B26E38696004E28DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD29472E26E38696004E28DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD29474326E38697004E28DC /* Preview Assets.xcassets in Resources */,
+				DD29474026E38697004E28DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCF049B26E11D5200A3E0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCF04A826E11D5200A3E0CE /* Preview Assets.xcassets in Resources */,
+				DD29464026E37680004E28DC /* PreparatoryGymnastics.mp4 in Resources */,
+				DD2946C726E37965004E28DC /* GoogleService-Info.plist in Resources */,
+				DDCF04A526E11D5200A3E0CE /* Assets.xcassets in Resources */,
+				DD29464126E37680004E28DC /* Gymnastics.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD48CAE026E5C63D00CF8CDA /* Twilio SPM Workaround */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Twilio SPM Workaround";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "find \"${CODESIGNING_FOLDER_PATH}\" -name '*.framework' -print0 | while read -d $'\\0' framework\ndo\n    codesign --force --deep --sign \"${EXPANDED_CODE_SIGN_IDENTITY}\" --preserve-metadata=identifier,entitlements --timestamp=none \"${framework}\"\ndone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD29472C26E38696004E28DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC8445026E5AE030067D37B /* WatchConnectivityConstants.swift in Sources */,
+				DD29476026E386CC004E28DC /* NotificationController.swift in Sources */,
+				DD29476126E386CC004E28DC /* HealthcareApp.swift in Sources */,
+				DD29476226E386CC004E28DC /* ContentView.swift in Sources */,
+				DD29475B26E386CC004E28DC /* Pedometer.swift in Sources */,
+				DD29475D26E386CC004E28DC /* HeartRateController.swift in Sources */,
+				DDC8445126E5AE060067D37B /* WatchConnectivityManager.swift in Sources */,
+				DD29476626E386E8004E28DC /* ElapsedTimeView.swift in Sources */,
+				DD29475F26E386CC004E28DC /* ComplicationController.swift in Sources */,
+				DD29475C26E386CC004E28DC /* CountDownTimerTextView.swift in Sources */,
+				DD29476426E386CC004E28DC /* WorkoutManager.swift in Sources */,
+				DD29476326E386CC004E28DC /* PedometerView.swift in Sources */,
+				DD29475E26E386CC004E28DC /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCF049926E11D5200A3E0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2946BB26E378D4004E28DC /* WarmingUpView.swift in Sources */,
+				DD29469D26E3786D004E28DC /* ElectroCardiogramSuccessView.swift in Sources */,
+				DD29468126E3781D004E28DC /* BodyMassRecordModel.swift in Sources */,
+				DD29464926E376E3004E28DC /* VideoCapture.swift in Sources */,
+				DD29466226E3774F004E28DC /* VideoRepositoryImpl.swift in Sources */,
+				DD29463A26E37656004E28DC /* ContentViewModel.swift in Sources */,
+				DD29469E26E3786D004E28DC /* ElectroCardiogramGuideView.swift in Sources */,
+				DD29465F26E3774F004E28DC /* IVideoRepository.swift in Sources */,
+				DD29469726E3785A004E28DC /* BodyTrackingView.swift in Sources */,
+				DD29468026E3781D004E28DC /* DataListViewModel.swift in Sources */,
+				DD29468426E3781D004E28DC /* DataListView.swift in Sources */,
+				DD29468726E3781D004E28DC /* DailyInputViewModel.swift in Sources */,
+				DD29463D26E37656004E28DC /* SettingManager.swift in Sources */,
+				DD29465326E37711004E28DC /* PlayerView.swift in Sources */,
+				DD2946AE26E378A4004E28DC /* VideoPageView.swift in Sources */,
+				DD29465926E3773A004E28DC /* HeartRateManager.swift in Sources */,
+				DD29468B26E3781D004E28DC /* DailyModel.swift in Sources */,
+				DD29466126E3774F004E28DC /* IHealthDataRepository.swift in Sources */,
+				DD2946C326E3790B004E28DC /* UIImage+Extentions.swift in Sources */,
+				DD2946B126E378A4004E28DC /* CustomVideoSource.swift in Sources */,
+				DD29464526E376B5004E28DC /* HKHelper.swift in Sources */,
+				DD29463B26E37656004E28DC /* HealthcareApp.swift in Sources */,
+				DD29465226E37711004E28DC /* CountDownTimerView.swift in Sources */,
+				DD29464C26E376FA004E28DC /* CallableApi.swift in Sources */,
+				DD29468C26E3781D004E28DC /* RecordRow.swift in Sources */,
+				DD29467026E37805004E28DC /* CoolingDownSuccessView.swift in Sources */,
+				DD2946B026E378A4004E28DC /* VideoPageViewModel.swift in Sources */,
+				DD29463926E37656004E28DC /* ContentView.swift in Sources */,
+				DD29468826E3781D004E28DC /* BloodPressureRecordModel.swift in Sources */,
+				DD29469C26E3786D004E28DC /* ElectroCardiogramCompleteView.swift in Sources */,
+				DD29466726E377D8004E28DC /* DefaultButtonStyle.swift in Sources */,
+				DD2946BF26E378E7004E28DC /* OnboardingView.swift in Sources */,
+				DD29469326E3784A004E28DC /* WalkingView.swift in Sources */,
+				DD2946B526E378BC004E28DC /* TraningTopView.swift in Sources */,
+				DD2946CA26E379D6004E28DC /* WatchConnectivityManager.swift in Sources */,
+				DD29466026E3774F004E28DC /* HealthDataRepositoryImpl.swift in Sources */,
+				DD29466C26E377EC004E28DC /* InputWeightViewModel.swift in Sources */,
+				DD29466B26E377EC004E28DC /* InputWeightView.swift in Sources */,
+				DD2946AD26E378A4004E28DC /* TwilioVideoSettings.swift in Sources */,
+				DD29468F26E37836004E28DC /* AppleWatchGuideView.swift in Sources */,
+				DD2946BA26E378D4004E28DC /* WarmingUpGuideView.swift in Sources */,
+				DD29465626E37725004E28DC /* CGImage+DrawPoint.swift in Sources */,
+				DD29465126E37711004E28DC /* UnderlineView.swift in Sources */,
+				DD29468626E3781D004E28DC /* BodyMassRecordRow.swift in Sources */,
+				DD2946C426E3790B004E28DC /* Date+Extension.swift in Sources */,
+				DD2946B226E378A4004E28DC /* TwilioVideoView.swift in Sources */,
+				DD29468226E3781D004E28DC /* DailyRecordModel.swift in Sources */,
+				DD29468A26E3781D004E28DC /* WeightInputView.swift in Sources */,
+				DD29468926E3781D004E28DC /* WeightInputViewModel.swift in Sources */,
+				DD29468526E3781D004E28DC /* DailyInputView.swift in Sources */,
+				DD2946A326E37888004E28DC /* InputBloodPressureViewModel.swift in Sources */,
+				DD29463C26E37656004E28DC /* SettingEnvironmentObject.swift in Sources */,
+				DD2946CB26E379D6004E28DC /* WatchConnectivityConstants.swift in Sources */,
+				DD29464626E376B5004E28DC /* HKTypes.swift in Sources */,
+				DD29468326E3781D004E28DC /* DailyRow.swift in Sources */,
+				DD2946AF26E378A4004E28DC /* TelenursingView.swift in Sources */,
+				DD2946BC26E378D4004E28DC /* WarmingUpSuccessView.swift in Sources */,
+				DD29467126E37805004E28DC /* CoolingDownView.swift in Sources */,
+				DD2946AC26E378A4004E28DC /* ViewModelObject.swift in Sources */,
+				DD29469426E3784A004E28DC /* WalkingSuccessView.swift in Sources */,
+				DD2946A226E37888004E28DC /* InputBloodPressureView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD29473326E38696004E28DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD29472F26E38696004E28DC /* Healthcare WatchKit Extension */;
+			targetProxy = DD29473226E38696004E28DC /* PBXContainerItemProxy */;
+		};
+		DD29474726E38697004E28DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD29472726E38695004E28DC /* Healthcare WatchKit */;
+			targetProxy = DD29474626E38697004E28DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD29474A26E38697004E28DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YGGBA3ZF43;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Healthcare_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Healthcare WatchKit";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.catekyo.Healthcare;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.catekyo.Healthcare.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		DD29474B26E38697004E28DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YGGBA3ZF43;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Healthcare_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Healthcare WatchKit";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.catekyo.Healthcare;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.catekyo.Healthcare.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		DD29474D26E38697004E28DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Healthcare WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = YGGBA3ZF43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Healthcare WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Healthcare WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Healthcare_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your workout related data will be used to display your saved workouts in Healthcare.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Workouts tracked by Healthcare on Apple Watch will be saved to HealthKit.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.catekyo.Healthcare.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		DD29474E26E38697004E28DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Healthcare WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = YGGBA3ZF43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Healthcare WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Healthcare WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Healthcare_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Your workout related data will be used to display your saved workouts in Healthcare.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Workouts tracked by Healthcare on Apple Watch will be saved to HealthKit.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.catekyo.Healthcare.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		DDCF04A926E11D5200A3E0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDCF04AA26E11D5200A3E0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDCF04AC26E11D5200A3E0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Healthcare/Healthcare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Healthcare/Preview Content\"";
+				DEVELOPMENT_TEAM = YGGBA3ZF43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Healthcare/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For reading your body Tracking data.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "For reading your heart rate data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "健康データの書き込みを行います。";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "ビデオ通話のためにマイクを使います";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catekyo.Healthcare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDCF04AD26E11D5200A3E0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Healthcare/Healthcare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Healthcare/Preview Content\"";
+				DEVELOPMENT_TEAM = YGGBA3ZF43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Healthcare/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For reading your body Tracking data.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "For reading your heart rate data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "健康データの書き込みを行います。";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "ビデオ通話のためにマイクを使います";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catekyo.Healthcare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD29474F26E38697004E28DC /* Build configuration list for PBXNativeTarget "Healthcare WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD29474D26E38697004E28DC /* Debug */,
+				DD29474E26E38697004E28DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD29475026E38697004E28DC /* Build configuration list for PBXNativeTarget "Healthcare WatchKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD29474A26E38697004E28DC /* Debug */,
+				DD29474B26E38697004E28DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCF049826E11D5200A3E0CE /* Build configuration list for PBXProject "Healthcare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCF04A926E11D5200A3E0CE /* Debug */,
+				DDCF04AA26E11D5200A3E0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCF04AB26E11D5200A3E0CE /* Build configuration list for PBXNativeTarget "Healthcare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCF04AC26E11D5200A3E0CE /* Debug */,
+				DDCF04AD26E11D5200A3E0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD48CADD26E5C63500CF8CDA /* XCRemoteSwiftPackageReference "twilio-video-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twilio/twilio-video-ios";
+			requirement = {
+				kind = exactVersion;
+				version = "4.6.0-beta1";
+			};
+		};
+		DDCF04B526E1201900A3E0CE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 8.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD48CADE26E5C63500CF8CDA /* TwilioVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD48CADD26E5C63500CF8CDA /* XCRemoteSwiftPackageReference "twilio-video-ios" */;
+			productName = TwilioVideo;
+		};
+		DDCF04B626E1201900A3E0CE /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDCF04B526E1201900A3E0CE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		DDCF04B826E1201900A3E0CE /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDCF04B526E1201900A3E0CE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DDCF04BA26E1201900A3E0CE /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDCF04B526E1201900A3E0CE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DDCF04BC26E1201900A3E0CE /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDCF04B526E1201900A3E0CE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		DDCF04BE26E1201900A3E0CE /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDCF04B526E1201900A3E0CE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		DDCF04C026E1201900A3E0CE /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDCF04B526E1201900A3E0CE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DDCF049526E11D5200A3E0CE /* Project object */;
+}
