@@ -88,6 +88,7 @@
 		DD3EC4E726E63EB700037389 /* HealthcareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3EC4E526E63EB700037389 /* HealthcareApp.swift */; };
 		DD3EC4E826E63EB700037389 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3EC4E626E63EB700037389 /* ContentView.swift */; };
 		DD48CADF26E5C63500CF8CDA /* TwilioVideo in Frameworks */ = {isa = PBXBuildFile; productRef = DD48CADE26E5C63500CF8CDA /* TwilioVideo */; };
+		DDA99A9626E77DD900CAE8D8 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA99A9526E77DD900CAE8D8 /* HealthKit.framework */; };
 		DDC8445026E5AE030067D37B /* WatchConnectivityConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946C926E379D6004E28DC /* WatchConnectivityConstants.swift */; };
 		DDC8445126E5AE060067D37B /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2946C826E379D6004E28DC /* WatchConnectivityManager.swift */; };
 		DDC8445526E5BD0D0067D37B /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC8445426E5BD0D0067D37B /* HealthKit.framework */; };
@@ -227,6 +228,8 @@
 		DD29476526E386E8004E28DC /* ElapsedTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
 		DD3EC4E526E63EB700037389 /* HealthcareApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthcareApp.swift; sourceTree = "<group>"; };
 		DD3EC4E626E63EB700037389 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDA99A9426E77DD900CAE8D8 /* Healthcare WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Healthcare WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		DDA99A9526E77DD900CAE8D8 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		DDC8444D26E5ADA80067D37B /* TwilioVideo.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TwilioVideo.xcframework; sourceTree = "<group>"; };
 		DDC8445226E5BCFC0067D37B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DDC8445326E5BD0D0067D37B /* Healthcare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Healthcare.entitlements; sourceTree = "<group>"; };
@@ -241,6 +244,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA99A9626E77DD900CAE8D8 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +529,7 @@
 		DD29473426E38696004E28DC /* Healthcare WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				DDA99A9426E77DD900CAE8D8 /* Healthcare WatchKit Extension.entitlements */,
 				DD29475526E386CC004E28DC /* ComplicationController.swift */,
 				DD29475826E386CC004E28DC /* ContentView.swift */,
 				DD29475226E386CB004E28DC /* CountDownTimerTextView.swift */,
@@ -607,6 +612,7 @@
 		DDCF04B126E11DEA00A3E0CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DDA99A9526E77DD900CAE8D8 /* HealthKit.framework */,
 				DDC8445426E5BD0D0067D37B /* HealthKit.framework */,
 				DDC8444D26E5ADA80067D37B /* TwilioVideo.xcframework */,
 				DD2946CD26E37CB2004E28DC /* TwilioVideo.xcframework */,
@@ -941,6 +947,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Healthcare WatchKit Extension/Healthcare WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Healthcare WatchKit Extension/Preview Content\"";
@@ -976,6 +983,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Healthcare WatchKit Extension/Healthcare WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Healthcare WatchKit Extension/Preview Content\"";
